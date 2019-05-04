@@ -15,5 +15,5 @@ vec2 mainSound( float time ){
  	  return vec2(
        0.5*kick(sequence(0xAAAA,time),100.0)+
        0.5*kick(sequence(0x5555,time),1000.0)
-     )*0.0;
+     );
 }
